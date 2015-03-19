@@ -1,15 +1,19 @@
-".container": {
-	backgroundColor:"white"
+"Button": {
+	width: 200
 }
 
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
+"#classesBtn": {
+	bottom: '29%'
 }
 
-"#label": {
-	font: {
-		fontSize: 12
-	}
+"#gradesBtn": {
+	bottom: '21%'
+}
+
+"#checkInBtn": {
+	bottom: '13%'
+}
+
+"#settingsBtn": {
+	bottom: '5%'
 }
