@@ -2,8 +2,12 @@
 	width: 200
 }
 
-"#loginBtn":{
+"#loginBtn": {
 	top: '5%'
+}
+
+"#logoutBtn": {
+	top: '13%'
 }
 
 "#classesBtn": {
