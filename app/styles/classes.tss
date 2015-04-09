@@ -1,4 +1,20 @@
+"Button": {
+	width: 200
+}
 
-".container" : {
-  
+"#classTitle":{
+	top: '5%',
+	font: 'bold'
+}
+
+"#assignments": {
+	
+	top: '10%'
+	
+}
+
+"#gradesBtn":{
+	
+	bottom: '10%'
+	
 }

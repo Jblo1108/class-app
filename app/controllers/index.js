@@ -26,4 +26,9 @@ function openClasses () {
     classes.open();
 }
 
+function openGrades() {
+	var grades = Alloy.createController('grades').getView();
+	grades.open();
+}
+
 $.index.open();
