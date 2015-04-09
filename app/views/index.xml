@@ -1,8 +1,10 @@
 <Alloy>
-	<Window>
-		<Button id="classesBtn" onClick="doClick">Classes</Button>
-		<Button id="gradesBtn" onClick="doClick">Grades</Button>
-		<Button id="checkInBtn" onClick="doClick">Check In</Button>
-		<Button id="settingsBtn" onClick="doClick">Settings</Button>
+	<Window backgroundColor="white">
+		<Label>Today's Schedule</Label>
+		<Button id="loginBtn" onClick="login">Login</Button>
+		<Button id="classesBtn" onClick="openClasses">Classes</Button>
+		<Button id="gradesBtn" onClick="openGrades">Grades</Button>
+		<Button id="checkInBtn">Check In</Button>
+		<Button id="settingsBtn">Settings</Button>
 	</Window>
 </Alloy>

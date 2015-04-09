@@ -7,8 +7,7 @@ var googleAuth = new GoogleAuth({
 	scope : [ 'https://www.googleapis.com/auth/tasks', 'https://www.googleapis.com/auth/tasks.readonly' ]
 });
 
-function doClick(e) {
-    alert("You clicked a button!");
+function login(e) {
     googleAuth.isAuthorized(function() {
         Ti.API.info('Access Token: ' + googleAuth.getAccessToken());
         //user is authorized so do something... just dont forget to add accessToken to your requests
@@ -17,6 +16,16 @@ function doClick(e) {
         //authorize first
         googleAuth.authorize();
     });
+}
+
+function openClasses () {
+    var classes = Alloy.createController('classes').getView();
+    classes.open();
+}
+
+function openGrades() {
+	var grades = Alloy.createController('grades').getView();
+	grades.open();
 }
 
 $.index.open();

@@ -2,6 +2,10 @@
 	width: 200
 }
 
+"#loginBtn":{
+	top: '5%'
+}
+
 "#classesBtn": {
 	bottom: '29%'
 }

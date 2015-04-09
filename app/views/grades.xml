@@ -1,0 +1,11 @@
+<Alloy>
+	<Window backgroundColor="white">
+		<Label id="classGrades">
+			Current Grades:
+			491: A
+			452: B
+			391: C
+			ABC: D
+			</Label>
+	</Window>
+</Alloy>
