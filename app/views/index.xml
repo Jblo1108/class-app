@@ -1,0 +1,9 @@
+<Alloy>
+	<Window backgroundColor="white">
+		<Button id="loginBtn" onClick="login">Login</Button>
+		<Button id="classesBtn" onClick="openClasses">Classes</Button>
+		<Button id="gradesBtn">Grades</Button>
+		<Button id="checkInBtn">Check In</Button>
+		<Button id="settingsBtn">Settings</Button>
+	</Window>
+</Alloy>

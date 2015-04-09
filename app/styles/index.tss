@@ -1,0 +1,23 @@
+"Button": {
+	width: 200
+}
+
+"#loginBtn":{
+	top: '5%'
+}
+
+"#classesBtn": {
+	bottom: '29%'
+}
+
+"#gradesBtn": {
+	bottom: '21%'
+}
+
+"#checkInBtn": {
+	bottom: '13%'
+}
+
+"#settingsBtn": {
+	bottom: '5%'
+}
