@@ -1,5 +1,5 @@
 <Alloy>
-	<Window backgroundColor="white">
+	<Window backgroundColor="black">
 		<Label>Today's Schedule</Label>
 		<Button id="loginBtn" onClick="login">Login</Button>
 		<Button id="logoutBtn" onClick="logout">Logout</Button>

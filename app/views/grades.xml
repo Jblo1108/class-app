@@ -1,5 +1,5 @@
 <Alloy>
-	<Window backgroundColor="white">
+	<Window backgroundColor="black">
 		<Label id="classGrades">
 			Current Grades:
 			491: A

@@ -1,12 +1,3 @@
-// var GoogleAuth = require('googleAuth');
-// var googleAuth = new GoogleAuth({
-	// clientId : '809132537693-fe2pma0vrh30dcu758m4pvh9lug71e71.apps.googleusercontent.com',
-	// clientSecret : 'yIUELoD1Acvw-vMYY4rsgHcs',
-	// propertyName : 'googleToken',
-	// quiet : false,
-	// scope : [ 'https://www.googleapis.com/auth/tasks', 'https://www.googleapis.com/auth/tasks.readonly' ]
-// });
-
 var googleAuth = Alloy.Globals.googleAuth;
 
 function login() {
