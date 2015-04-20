@@ -16,5 +16,9 @@ function loadWeather() {
 	loader.send();
 }
 
+function sendEmail() {
+	var emailDialog = Ti.UI.createEmailDialog()
+	emailDialog.open();
+}
 // loadWeather();
 // setInterval(loadWeather, 900000);
