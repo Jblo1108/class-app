@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="dashboardWin" title="Dashboard">
+		<Label id="weatherInfo"></Label>
+	</Window>
+</Alloy>

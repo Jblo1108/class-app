@@ -1,10 +1,5 @@
 <Alloy>
-	<Window backgroundColor="black">
-		<Label id="classTitle">CMSC 491</Label>
-		<Label id="assignments">Assignments Due Today:
-			CMSC 491 Mobile App
-			CMSC 491 Pictures
-			</Label> 
-		<Button id="gradesBtn" onClick="openGrades">Grades</Button>
+	<Window id="classesWin" title="Classes" backgroundColor="black">
+
 	</Window>
 </Alloy>

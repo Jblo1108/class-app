@@ -1,4 +1,14 @@
 <Alloy>
+    <TabGroup backgroundColor="black">
+        <Tab id="dashTab" title="Dashboard">
+            <Require src="dashboard" type="view"></Require>
+        </Tab>
+        <Tab id="classesTab" title="Classes">
+            <Require src="classes" type="view"></Require>
+        </Tab>
+    </TabGroup>
+</Alloy>
+<!-- <Alloy>
 	<Window backgroundColor="black">
 		<Label>Today's Schedule</Label>
 		<Button id="loginBtn" onClick="login">Login</Button>
@@ -8,4 +18,4 @@
 		<Button id="checkInBtn">Check In</Button>
 		<Button id="weatherBtn" onClick="loadWeather">Weather</Button>
 	</Window>
-</Alloy>
+</Alloy> -->
