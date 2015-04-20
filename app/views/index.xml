@@ -1,5 +1,8 @@
 <Alloy>
     <TabGroup backgroundColor="black">
+    	<Tab id="loginTab" title="Login">
+    		<Require src="login" type="view"></Require>
+    	</Tab>
         <Tab id="dashTab" title="Dashboard">
             <Require src="dashboard" type="view"></Require>
         </Tab>
