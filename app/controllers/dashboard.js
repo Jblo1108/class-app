@@ -17,7 +17,7 @@ function loadWeather() {
 }
 
 function sendEmail() {
-	var emailDialog = Ti.UI.createEmailDialog()
+	var emailDialog = Ti.UI.createEmailDialog();
 	emailDialog.open();
 }
 // loadWeather();
