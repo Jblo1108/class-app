@@ -8,14 +8,3 @@
         </Tab>
     </TabGroup>
 </Alloy>
-<!-- <Alloy>
-	<Window backgroundColor="black">
-		<Label>Today's Schedule</Label>
-		<Button id="loginBtn" onClick="login">Login</Button>
-		<Button id="logoutBtn" onClick="logout">Logout</Button>
-		<Button id="classesBtn" onClick="openClasses">Classes</Button>
-		<Button id="gradesBtn" onClick="openGrades">Grades</Button>
-		<Button id="checkInBtn">Check In</Button>
-		<Button id="weatherBtn" onClick="loadWeather">Weather</Button>
-	</Window>
-</Alloy> -->

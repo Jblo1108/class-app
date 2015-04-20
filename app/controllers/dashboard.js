@@ -20,5 +20,7 @@ function sendEmail() {
 	var emailDialog = Ti.UI.createEmailDialog();
 	emailDialog.open();
 }
-// loadWeather();
-// setInterval(loadWeather, 900000);
+
+loadWeather();
+//This refreshes the weather feed every 15 minutes
+setInterval(loadWeather, 900000);
