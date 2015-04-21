@@ -12,3 +12,17 @@ $.loginBtn.addEventListener('click', function(e) {
 		alert('Username/Password are required.');
 	}
 });
+
+loginReq.onload = function()
+{
+    var json = this.responseText;
+    var response = JSON.parse(json);
+    if (response.logged == true)
+    {
+        alert("Welcome " + response.name + ". Your email is: " + response.email);
+    }
+    else
+    {
+        alert(response.message);
+    }
+};
