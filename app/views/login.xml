@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="loginWin" title="Login">
+		<TextField id='username'/>
+		<TextField id='password'/>
+		<Button id='loginBtn'>Login</Button>
+	</Window>
+</Alloy>
