@@ -17,24 +17,24 @@ function loadWeather() {
 }
 var checkInReq = Titanium.Network.createHTTPClient();
  
-checkInReq.addEventListener('click',function(e)
-{
-	var longitude = e.coords.longitude;
-    var latitude = e.coords.latitude;
-	var latitude1 = 37.545569;
-	var longitude1 = -77.449576 ;
+function checkIn() {
+	var longitude = 37.545569;
+    var latitude = -77.449576;
+	var longitude1 = 37.545569;
+	var latitude1 = -77.449576;
 	if(latitude==latitude1 && longitude==longitude1){
-        loginReq.open("POST","http://stephen-wu.com/cmsc491/checkin.php?username="+username+"&classname="+class_name);
+        checkInReq.open("POST","http://stephen-wu.com/cmsc491/checkin.php?username="+Alloy.Globals.username+"&classname=CMSC_491");
         var params = {
-            username: username.value,
+            username: Alloy.Globals.username
         };
-        loginReq.send(params);
+        checkInReq.send(params);
+        alert("Congrats, you have checked in!");
     }
     else
     {
         alert("too far away");
     }
-});
+}
 
 function sendEmail() {
 	var emailDialog = Ti.UI.createEmailDialog();

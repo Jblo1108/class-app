@@ -1,3 +1,11 @@
 "#weatherInfo" : {
 	top: '5%'
 }
+
+"#checkIn" : {
+	bottom: '5%'
+}
+
+"#sendEmail" : {
+	bottom: '15%'
+}

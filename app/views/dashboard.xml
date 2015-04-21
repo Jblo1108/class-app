@@ -1,6 +1,7 @@
 <Alloy>
 	<Window id="dashboardWin" title="Dashboard">
 		<Label id="weatherInfo"></Label>
+		<Button id="checkIn" onClick="checkIn">Check in!</Button>
 		<Button id="sendEmail" onClick="sendEmail">Send Message!</Button>
 	</Window>
 </Alloy>
