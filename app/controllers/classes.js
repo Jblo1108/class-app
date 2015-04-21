@@ -1,3 +1,5 @@
+var tableData = [];
+
 $.classesWin.addEventListener("focus", function() {
 	var classesReq = Titanium.Network.createHTTPClient({
 		onload: function(e) {
@@ -6,8 +8,25 @@ $.classesWin.addEventListener("focus", function() {
 		    if (response != null) {
 		    	for(var i = 0; i < response.length; i++) {
 		    		response[i].forEach(function(entry) {
+		    			var row = Ti.UI.createTableViewRow({
+		    				selectedBackgroundColor:'yellow',
+		    				height:50
+		    			});
+		    			
+		    			var classLabel = Ti.UI.createLabel({
+		    				color:'white',
+		    				text:entry.classname
+		    			});
+		    			row.add(classLabel);
+		    			tableData.push(row);
 		    			Ti.API.info(entry.classname);
 		    		});
+		    		var tableView = Ti.UI.createTableView({
+						backgroundColor:'black',
+						data:tableData
+					});
+
+					$.classesWin.add(tableView);
 		    	}
 		    } else {
 		        alert("ERROR");
