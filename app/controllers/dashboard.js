@@ -35,6 +35,7 @@ checkInReq.addEventListener('click',function(e)
         alert("too far away");
     }
 });
+
 function sendEmail() {
 	var emailDialog = Ti.UI.createEmailDialog();
 	emailDialog.open();
